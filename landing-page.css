@@ -3,14 +3,20 @@ body {
 }
 
 header {
-  background-image: url(./image\ 1.png);
+  background-image: url(./NetflixLandingPage/image\ 1.png);
   background-repeat: no-repeat;
   color: white;
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   height: 747px;
   flex: content;
+}
+
+.button2 a{
+  text-decoration: none;
+  color: white;
 }
 
 nav {
@@ -62,15 +68,20 @@ nav {
 }
 
 .button1 {
+  border: 1px solid white;
   display: flex;
   justify-content: space-evenly;
   width: 94px;
   color: white;
+  align-items: center;
+  border-radius: 4px;
   height: 34px;
   background-color: black;
   cursor: pointer;
 }
 .button2 {
+  border: 1px solid red;
+  border-radius: 4px;
   background-color: red;
   cursor: pointer;
   color: white;
@@ -97,6 +108,7 @@ main {
   border: 1px;
   height: 70px;
   color: rgb(12, 12, 12);
+  border-radius: 4px;
 }
 
 .button3 {
@@ -110,6 +122,8 @@ main {
   top: 57px;
   left: 101px;
   cursor: pointer;
+  border: 1px solid red;
+  border-radius: 4px;
 }
 
 .p1 {
@@ -306,6 +320,7 @@ footer {
   height: 350px;
   color: white;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;

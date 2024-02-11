@@ -66,6 +66,11 @@ footer {
   top: 65px;
 }
 
+.signin a{
+  text-decoration: none;
+  color: white;
+}
+
 input {
   width: 314px;
   color: rgba(140, 140, 140, 1);
