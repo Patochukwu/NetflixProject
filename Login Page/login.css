@@ -1,0 +1,162 @@
+body {
+  background-color: black;
+}
+
+header {
+  background-image: url(./image\ 1.png);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 747px;
+}
+
+.logo {
+  width: 160px;
+  top: 10022px;
+  left: 10057px;
+  height: 40px;
+}
+
+h2 {
+  width: 314px;
+}
+
+nav {
+  /* border: 5px solid green; */
+  display: flex;
+  width: 1350px;
+  height: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  /* border: 5px solid red; */
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 600px;
+  width: 400px;
+  display: flex;
+  top: 65px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  /* border: 5px solid blue; */
+  height: 350px;
+  color: rgba(140, 140, 140, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  /* border: 5px solid pink; */
+  border-spacing: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 314px;
+  height: 350px;
+  top: 65px;
+}
+
+input {
+  width: 314px;
+  color: rgba(140, 140, 140, 1);
+  height: 50px;
+  background-color: rgba(51, 51, 51, 1);
+  padding-bottom: 10px;
+  top: 2px;
+  border-radius: 8px;
+}
+
+button {
+  color: white;
+  font-size: 20px;
+  width: 314px;
+  height: 50px;
+  top: 158px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: red;
+}
+
+#checkbox {
+  border: 5px solid brown;
+  width: 90px;
+}
+.remember {
+  /* border: 5px solid blue; */
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  width: 100px;
+}
+
+.remember1 {
+  /* border: 5px solid yellow; */
+  width: 150px;
+  padding-right: 50px;
+}
+
+.infop {
+  /* border: 5px solid green; */
+  color: rgba(140, 140, 140, 1);
+  width: 320px;
+  height: 30px;
+}
+
+.lm {
+  color: blue;
+  cursor: pointer;
+}
+
+.formsub {
+  /* border: 5px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerdiv {
+  /* border: 5px solid pink; */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  width: fit-content;
+  background-color: black;
+  color: white;
+}
+
+.details {
+  /* border: 5px solid blue; */
+  color: rgba(153, 153, 153, 1);
+  display: flex;
+  width: 900px;
+  height: 163px;
+  top: 50px;
+  gap: 70px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.facebook {
+  width: 160px;
+  height: 20px;
+}
+
+.info {
+  color: rgba(140, 140, 140, 1);
+  width: 314px;
+  height: 216px;
+  top: 404px;
+  left: 68px;
+}
