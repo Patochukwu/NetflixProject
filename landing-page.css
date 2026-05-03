@@ -14,7 +14,7 @@ header {
   flex: content;
 }
 
-.button2 a{
+.button2 a {
   text-decoration: none;
   color: white;
 }
@@ -79,6 +79,7 @@ nav {
   background-color: black;
   cursor: pointer;
 }
+
 .button2 {
   border: 1px solid red;
   border-radius: 4px;
@@ -104,7 +105,7 @@ main {
 
 .email {
   width: 500px;
-  border-radius: 2px, 0px, 0px, 2px;
+  border-radius: 2px 0px 0px 2px;
   border: 1px;
   height: 70px;
   color: rgb(12, 12, 12);
@@ -114,7 +115,7 @@ main {
 .button3 {
   background-color: red;
   width: 247px;
-  border-radius: 0px, 2px, 2px, 0px;
+  border-radius: 0px 2px 2px 0px;
   height: 70px;
   font-weight: 400;
   size: 30px;
@@ -163,6 +164,7 @@ main {
   top: 69.98px;
   left: 410px;
 }
+
 .div1 {
   /* border: 5px solid red; */
   width: 280px;
@@ -336,9 +338,6 @@ footer {
   color: white;
 }
 
-.divfooter {
-  /* border: 5px solid yellow; */
-}
 
 .details {
   /* border: 5px solid blue; */
@@ -350,4 +349,188 @@ footer {
   gap: 70px;
   flex-direction: row;
   align-items: center;
+}
+
+/* --- Responsive CSS Overrides --- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Header & Nav */
+nav {
+  padding: 0 20px;
+  margin-left: 0;
+}
+
+.headerh1 {
+  width: 100%;
+  max-width: 800px;
+  margin-left: 0;
+  text-align: center;
+  padding: 0 20px;
+  height: auto;
+}
+
+/* Main sections */
+.main1,
+.main2,
+.main3,
+.main4 {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  min-height: 325px;
+  margin: 0 auto;
+  left: auto;
+  top: auto;
+  padding: 40px 20px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  top: auto;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+
+/* FAQ Section */
+.infodiv {
+  height: auto;
+  top: auto;
+  padding: 60px 0;
+}
+
+.infodiv1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.p {
+  width: 100%;
+  max-width: 650px;
+  gap: 20px;
+  height: auto;
+  min-height: 75px;
+  padding: 15px 20px;
+}
+
+/* Footer */
+.details {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  top: auto;
+}
+
+footer {
+  height: auto;
+  padding: 40px 20px;
+}
+
+/* Form Layout (Email Input & Button) */
+header>div:last-child>div,
+.ebdiv>div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.email {
+  width: 100%;
+  max-width: 500px;
+}
+
+.button3 {
+  left: auto;
+  top: auto;
+  width: auto;
+  min-width: 200px;
+  font-size: 24px;
+}
+
+/* Media Queries for Tablets and Smaller Devices */
+@media (max-width: 900px) {
+
+  .main1,
+  .main2,
+  .main3,
+  .main4 {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .headerh1 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+
+  .details {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+}
+
+/* Media Queries for Mobile Phones */
+@media (max-width: 600px) {
+  .headerh1 {
+    font-size: 36px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  #logo {
+    margin-left: 0;
+  }
+
+  .buttons {
+    margin-left: 0;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .p {
+    font-size: 16px;
+  }
+
+  .button3 {
+    width: 100%;
+    max-width: 500px;
+  }
 }
